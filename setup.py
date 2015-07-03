@@ -7,11 +7,12 @@ microinvoices
 
 import microinvoices
 from setuptools import setup, find_packages
-import sys
+
 
 install_requires = [
-    "Django==1.8.2",
-    "raven==5.2.0",
+    "Django<=1.8",
+    "raven",
+    "djangorestframework<=3.2.3",
 ]
 
 dev_requires = [
