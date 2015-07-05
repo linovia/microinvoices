@@ -38,6 +38,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Project's applications
+    'microinvoices.invoices',
+
     # 3rd party
     'rest_framework',
 )
